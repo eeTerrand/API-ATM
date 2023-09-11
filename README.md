@@ -22,13 +22,18 @@ El archivo .sln se encuentra dentro de la carpeta ATMApi.
 En cuanto a los endpoints, separamos en 2 controllers, uno que modifica el objeto "UserCard", donde podemos ver:
 
 UnlockUser/{cardNumber}, donde se desbloquean los usuarios según el número de tarjeta del usuario.
+
 CreateUser, donde se recibe un dto con las propiedades para crear un nuevo usuario.
+
 login/{cardNumber}, donde se recibe el número de tarjeta ingresado por el usuario como un string, con el formato "1111111111111111", asumiendo que el mismo llega formateado.
+
 login-pin/{pinNumber}/{cardId}, donde se envia el pin ingresado por el usuario y se recibe el cardId, que se envió en el endpoint anterior.
 
 Por otro lado, tenemos los endpoints de UserOperation
 ![image](https://github.com/eeTerrand/API-ATM/assets/124373372/d430f8c3-59d7-4676-8ccf-02c6c6a06445)
 
 En el mismo, existen 2:
+
 useroperations/AddBalance, recibiendo un dto con el userCardId, donde se devuelven los datos de la cuenta de usuario y se realiza un registro con la operación.
+
 useroperations/WithdrawFunds, recibiendo un dto con el userCardId y los fondos a retirar, registrando el retiro de fondos y devolviendo el resultado de la operación.
