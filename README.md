@@ -12,3 +12,5 @@ Se utilizó el Repository Pattern, aplicando diferentes repositorios para delimi
 Además de los métodos solicitados y se agregó un método de AddUserCard y UnlockUserCard, para poder agregar y desbloquear usuarios que hayan bloqueado su acceso.
 
 Se agrega el archivo de script .SQL, que crea una base de datos llamada "ATMApi", un usuario "useratmapi1" y su correspondiente contraseña, el appsetings ya se encuentra configurado para funcionar con esos parametros.
+
+El archivo .sln se encuentra dentro de la carpeta ATMApi.
