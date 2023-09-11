@@ -7,7 +7,7 @@ Se desarrolló con la metodología code first.
 
 A continuación se adjunta el diagrama de entidad-relación de las tablas planteadas.
 
-![image (102)](https://github.com/eeTerrand/ATM-Interface/assets/124373372/eee74e27-b6f4-4e06-9115-9a5957518581)
+![imagen diagrama entidad-relacion](https://github.com/eeTerrand/ATM-Interface/assets/124373372/eee74e27-b6f4-4e06-9115-9a5957518581)
 
 Se utilizó el Repository Pattern, aplicando diferentes repositorios para delimitar las diferentes actividades y tratar de tener el menor acoplamiento posible.
 
@@ -17,7 +17,7 @@ Se agrega el archivo de script .SQL, que crea una base de datos llamada "ATMApi"
 
 El archivo .sln se encuentra dentro de la carpeta ATMApi.
 
-![image](https://github.com/eeTerrand/API-ATM/assets/124373372/ef59f27e-bdeb-4ce4-b579-a8e6b9e00b56)
+![Imagen endpoints 1](https://github.com/eeTerrand/API-ATM/assets/124373372/ef59f27e-bdeb-4ce4-b579-a8e6b9e00b56)
 
 En cuanto a los endpoints, separamos en 2 controllers, uno que modifica el objeto "UserCard", donde podemos ver:
 
@@ -30,7 +30,7 @@ login/{cardNumber}, donde se recibe el número de tarjeta ingresado por el usuar
 login-pin/{pinNumber}/{cardId}, donde se envia el pin ingresado por el usuario y se recibe el cardId, que se envió en el endpoint anterior.
 
 Por otro lado, tenemos los endpoints de UserOperation
-![image](https://github.com/eeTerrand/API-ATM/assets/124373372/d430f8c3-59d7-4676-8ccf-02c6c6a06445)
+![Imagen endpoints 2](https://github.com/eeTerrand/API-ATM/assets/124373372/d430f8c3-59d7-4676-8ccf-02c6c6a06445)
 
 En el mismo, existen 2:
 
