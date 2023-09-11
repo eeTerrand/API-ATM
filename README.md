@@ -17,7 +17,7 @@ Se agrega el archivo de script .SQL, que crea una base de datos llamada "ATMApi"
 
 El archivo .sln se encuentra dentro de la carpeta ATMApi.
 
-![Imagen endpoints 1](https://github.com/eeTerrand/API-ATM/assets/124373372/ef59f27e-bdeb-4ce4-b579-a8e6b9e00b56)
+![Imagen endpoints 1](https://github.com/eeTerrand/API-ATM/blob/main/Imagen%20endpoints%201.png)
 
 En cuanto a los endpoints, separamos en 2 controllers, uno que modifica el objeto "UserCard", donde podemos ver:
 
@@ -30,7 +30,8 @@ login/{cardNumber}, donde se recibe el número de tarjeta ingresado por el usuar
 login-pin/{pinNumber}/{cardId}, donde se envia el pin ingresado por el usuario y se recibe el cardId, que se envió en el endpoint anterior.
 
 Por otro lado, tenemos los endpoints de UserOperation
-![Imagen endpoints 2](https://github.com/eeTerrand/API-ATM/assets/124373372/d430f8c3-59d7-4676-8ccf-02c6c6a06445)
+
+![Imagen endpoints 2](https://github.com/eeTerrand/API-ATM/blob/main/Imagen%20endpoints%202.png)
 
 En el mismo, existen 2:
 
