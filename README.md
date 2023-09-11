@@ -10,3 +10,5 @@ A continuación se adjunta el diagrama de entidad-relación de las tablas plante
 Se utilizó el Repository Pattern, aplicando diferentes repositorios para delimitar las diferentes actividades y tratar de tener el menor acoplamiento posible.
 
 Además de los métodos solicitados y se agregó un método de AddUserCard y UnlockUserCard, para poder agregar y desbloquear usuarios que hayan bloqueado su acceso.
+
+Se agrega el archivo de script .SQL, que crea una base de datos llamada "ATMApi", un usuario "useratmapi1" y su correspondiente contraseña, el appsetings ya se encuentra configurado para funcionar con esos parametros.
